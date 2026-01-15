@@ -1,0 +1,60 @@
+/* Dark theme overrides */
+.root, .app-root {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #0f1720 0%, #0b1013 100%);
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    -fx-font-size: 13px;
+    -fx-text-fill: #e6eef1;
+}
+
+.total-balance {
+    -fx-text-fill: #ffffff;
+}
+
+.section-title {
+    -fx-text-fill: #dbe8ea;
+}
+
+.card, .form-card {
+    -fx-background-color: #071014;
+    -fx-background-radius: 8;
+    -fx-effect: none;
+}
+
+.form-label {
+    -fx-text-fill: #98a3a6;
+}
+
+.form-control {
+    -fx-background-color: #091519;
+    -fx-border-color: rgba(255,255,255,0.04);
+    -fx-text-fill: #e6eef1;
+}
+
+.primary-button {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #2aa198 0%, #238e81 100%);
+    -fx-text-fill: white;
+}
+
+.status-label {
+    -fx-text-fill: #98a3a6;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: rgba(42,161,153,0.08);
+}
+
+.expenses-chart .chart-title {
+    -fx-text-fill: #98a3a6;
+}
+
+.chart-container {
+    -fx-padding: 6px;
+}
+
+.button, .primary-button {
+    -fx-transition: all 180ms ease-in-out;
+}
+.button:hover, .primary-button:hover {
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+}
