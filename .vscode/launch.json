@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Finance App",
+            "request": "launch",
+            "mainClass": "com.finance.App",
+            "projectName": "finance-app",
+            "vmArgs": "--add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
