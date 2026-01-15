@@ -45,8 +45,7 @@
 .card {
     -fx-background-color: #ffffff;
     -fx-background-radius: 12;
-    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.06), 12, 0.2, 0, 6);
-}
+    -fx-effect: dropshadow(gaussian, #000);
 .form-card {
     -fx-pref-width: 380px;
 }
@@ -61,7 +60,7 @@
     -fx-background-radius: 10;
     -fx-border-radius: 10;
     -fx-background-color: #fff;
-    -fx-border-color: rgba(10,20,30,0.06);
+    -fx-border-color: #000;
     -fx-padding: 10 12 10 12;
     -fx-font-size: 13px;
 }
@@ -77,20 +76,21 @@
     -fx-padding: 10 12 10 12;
 }
 .combo-box .list-cell:hover {
-    -fx-background-color: rgba(42,161,153,0.06);
+    -fx-background-color: #000;
+    -fx-text-fill: #000;    
 }
 .combo-box .combo-box-base {
     -fx-pref-height: 36px;
 }
 
 .primary-button {
-    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #2aa198 0%, #238e81 100%);
+    -fx-background-color: #2aa198;
     -fx-text-fill: white;
     -fx-font-weight: 700;
     -fx-background-radius: 12px;
     -fx-padding: 10 18 10 18;
     -fx-cursor: hand;
-    -fx-effect: dropshadow(gaussian, rgba(42,161,153,0.08), 8, 0.2, 0, 4);
+    -fx-effect: dropshadow(gaussian, #000  );
 }
 .primary-button:hover {
     -fx-scale-x: 1.02;
@@ -99,12 +99,13 @@
 
 .secondary-button {
     -fx-background-color: transparent;
-    -fx-border-color: rgba(10,20,30,0.08);
+    -fx-border-color: #000;
     -fx-border-radius: 8px;
     -fx-padding: 8 12 8 12;
 }
 .secondary-button:hover {
-    -fx-background-color: rgba(42,161,153,0.04);
+    -fx-background-color: #000; 
+    -fx-text-fill: #000;
 }
 
 .month-picker .combo-box-base {
