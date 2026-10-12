@@ -1,0 +1,16 @@
+# Build output
+target/
+*.class
+
+# Local data (created when the app runs)
+finance.db
+db_backups/
+
+# Editor and IDE files
+.cursor/
+extensions/
+projects/
+ai-tracking/
+plans/
+argv.json
+ide_state.json

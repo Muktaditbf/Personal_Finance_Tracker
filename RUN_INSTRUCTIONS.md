@@ -9,7 +9,7 @@ Maven automatically handles all JavaFX module path configuration. Simply run:
 
 ```powershell
 # Navigate to project directory
-cd c:\Users\MKTD\.cursor
+cd Personal_Finance_Tracker
 
 # Run the application
 mvn javafx:run
